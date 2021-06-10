@@ -264,6 +264,15 @@ export class TagComponent {
         return !this.readonly && !this.editing && isChrome && this.hasRipple;
     }
 
+        /**
+     * @desc returns whether the tag is the document's active element
+     * @name isFocused
+     */
+         public isFocused(): boolean {
+            return document.activeElement == this.element.nativeElement;
+        }
+    
+
     /**
      * @name disableEditMode
      * @param $event
