@@ -18,6 +18,7 @@
     <div class="ng2-tags-container">
         <tag
             *ngFor="let item of items; let i = index; trackBy: trackBy"
+            class="ng2-tag"
             (onSelect)="selectItem(item)"
             (onRemove)="onRemoveRequested(item, i)"
             (onKeyDown)="handleKeydown($event)"
