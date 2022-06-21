@@ -9,6 +9,13 @@ This is a component for Angular >= 4. Design and API are blandly inspired by Ang
 Check out [the live demo](https://angular-mfppay.stackblitz.io/).
 
 
+## (Q6) How to mantain package
+
+- Run `npm run build` 
+- Go to `/dist`  directory and run `npm pack` to create the package.
+- Create a new release in GitHub using a new tag and upload the package. 
+
+
 ## Getting Started
 
     npm i ngx-chips // OR
